@@ -1,12 +1,12 @@
 import { PublicInfo } from "@/src/model/info";
 
-const firstName = "André";
-const lastName = "Pinot";
-const jobTitle = "Chat domestique";
+const firstName = "Antoine";
+const lastName = "Brioy";
+const jobTitle = "Tech Lead, Full-stack";
 
 export const publicInfo: PublicInfo = {
   lang: "fr",
-  anonymousName: "API",
+  anonymousName: "ABR",
   firstName,
   lastName,
   jobTitle,
@@ -14,15 +14,10 @@ export const publicInfo: PublicInfo = {
   pageDesc: `Page du CV de ${firstName} ${lastName}`,
   fullName: `${firstName} ${lastName}`,
   city: "Rennes",
-  linkedIn: "linkedin.com/in/andrépinot",
-  github: "github.com/andrépinot",
-  picture: {
-    url: "PINOT_Andre.jpg",
-    type: "image/jpeg",
-    alt: `Photo de ${firstName} ${lastName}`,
-  },
-  cvPdfName: "CV_PINOT_Andre_chat_domestique_dossier_de_competences.pdf",
-  resumePdfName: "CV_PINOT_Andre_chat_domestique.pdf",
+  linkedIn: "linkedin.com/in/abrioy",
+  github: "github.com/abrioy",
+  cvPdfName: "CV_BRIOY_Antoine_Tech_Lead_dossier_de_compétences.pdf",
+  resumePdfName: "CV_BRIOY_Antoine_Tech_Lead.pdf",
 
   cvDesc: "Dossier de compétence",
   cvHoverDownload: "Télécharger le dossier de compétence",
