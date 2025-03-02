@@ -104,6 +104,8 @@ async function makePreview(
   const server = serveApplication();
 
   const browser = await puppeteer.launch({
+    browser: "chrome",
+    args: ['--no-sandbox', '--disable-setuid-sandbox'],
     headless: true,
   });
 
