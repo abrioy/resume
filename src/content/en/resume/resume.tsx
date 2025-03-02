@@ -1,14 +1,14 @@
-import styles from "@/src/content/fr/resume/resume.module.css";
+import styles from "@/src/content/en/resume/resume.module.css";
 import Header from "@/src/components/commons/header";
-import Intro from "@/src/content/fr/resume/intro.mdx";
-import Skills from "@/src/content/fr/resume/skills.mdx";
-import SkillsSecondary from "@/src/content/fr/resume/skills-secondary.mdx";
-import Training from "@/src/content/fr/resume/training.mdx";
-import stylesTimeline from "@/src/content/fr/resume/resume-timeline.module.css";
-import Experience from "@/src/content/fr/resume/experience.mdx";
+import Intro from "@/src/content/en/resume/intro.mdx";
+import Skills from "@/src/content/en/resume/skills.mdx";
+import SkillsSecondary from "@/src/content/en/resume/skills-secondary.mdx";
+import Training from "@/src/content/en/resume/training.mdx";
+import stylesTimeline from "@/src/content/en/resume/resume-timeline.module.css";
+import Experience from "@/src/content/en/resume/experience.mdx";
 import { VariantDocumentComponentArgs } from "@/src/model/configuration.model";
 
-export default function FrenchResume({
+export default function EnglishResume({
   variant,
   components,
 }: VariantDocumentComponentArgs) {
